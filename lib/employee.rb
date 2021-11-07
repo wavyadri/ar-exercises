@@ -7,5 +7,5 @@ class Employee < ActiveRecord::Base
     greater_than_or_equal_to: 40,
     less_than: 200
   }
-  validates_associated :store
+  # validates_associated :store
 end
